@@ -1,0 +1,500 @@
+    1  ls
+    2  ls
+    3  ls
+    4  echo $ SHELL
+    5  LS
+    6  ls
+    7  LS
+    8  pwd
+    9  ls
+   10  ls /
+   11  ls /home
+   12  cd temp/
+   13  cd tmp
+   14  ls
+   15  cd STUFF
+   16  ls
+   17  ls
+   18  cd 'PEP COURSE' 
+   19  ls
+   20  cd WINDOWS
+   21  ls
+   22  cd ~
+   23  ls
+   24  cd ..
+   25  ls
+   26  cd c
+   27  ls
+   28  cd ..
+   29  cd ..
+   30  cd ..
+   31  ls
+   32  cd ~
+   33  ls
+   34  cd ~
+   35  ls
+   36  cd ~
+   37  echo $home
+   38  cd home
+   39  cd
+   40  cd /data/..
+   41  cd DDOC
+   42  CD DOC
+   43  cd DOC
+   44  cd dow
+   45  cd D
+   46  cd DOW
+   47  cd DOC
+   48  cd D
+   49  cd ~
+   50  cd D
+   51  mkdir temp
+   52  cd temp
+   53  touch cubane.pdb ethane.pdb methane.pdb octane.pdb propane.pdb elephant.txt i_dont_belong.txt neither_do_i.txt pentane.pdb this_is_boring_as_hell.txt
+   54  ls p*
+   55  ls pdp*
+   56  ls *pdp
+   57  ls *pdp
+   58  ls *.[p]*
+   59  rmdir
+   60  ls
+   61  mkdir practice
+   62  ls
+   63  mkdir practice
+   64  midir practice
+   65  rmdir practice
+   66  touch practice
+   67  ls
+   68  rm practice
+   69  ls
+   70  pwd
+   71  ls
+   72  cd/c/
+   73  cd /c/
+   74  pwd
+   75  ls
+   76  cd Users/
+   77  cd a1714928/
+   78  cd Destop/
+   79  cd Desktop/
+   80  cd Desktop/
+   81  cd Desktop/
+   82  clear
+   83  ls
+   84  clear
+   85  ls Desktop/
+   86  ls
+   87  '//uofa/users$/users8/a1714928/Desktop/Anna''//uofa/users$/users8/a1714928/Desktop/Anna'
+   88  ls
+   89  clear
+   90  '//uofa/users$/users8/a1714928/Desktop/Anna'
+   91  mkdir Anna1
+   92  rm Anna
+   93  rm Anna1
+   94  mrdir Anna 1
+   95  ls
+   96  rm Anna1
+   97  pwd
+   98  ls
+   99  cd /c/
+  100  pwd
+  101  ls
+  102  cd Users/
+  103  cd a1714928/
+  104  cd Desktop/
+  105  cd Desktop/
+  106  cd Anna1/
+  107  ls
+  108  cd Downloads/
+  109  cd a1714928/
+  110  ls
+  111  cd UofA/
+  112  clear
+  113  pwd
+  114  touch practice_file
+  115  rm practice_file
+  116  pwd
+  117  ls
+  118  ls -a
+  119  cd /This PC/
+  120  cd Desktop/
+  121  ls
+  122  clear
+  123  ls
+  124  mkdir Hw4
+  125  ls
+  126  cd ..
+  127  rm Hw4
+  128  mkdir Hw4
+  129  cd Desktop/
+  130  rm Hw4
+  131  rm Anna1
+  132  pwd
+  133  ls
+  134  mkdir temp
+  135  mkdir Bash1
+  136  cd Bashwk1
+  137  ls
+  138  man rm
+  139  rm --help
+  140  ls -s
+  141  ls - S
+  142  ls -S
+  143  ls -d
+  144  ls -d
+  145  ls -d*/
+  146  mkdir test1
+  147  mkdir test2
+  148  mkdir test 3
+  149  ls -d*/
+  150  ls -lht
+  151  ls -l-h-t
+  152  ls Bashwk2
+  153  cd ~
+  154  cd ~
+  155  mkdir /Bashwk2
+  156  mkdir Bashwk2
+  157  ls
+  158  cd Bashwk2
+  159  pwd;cd ~/Downloads/
+  160  ls -lrth
+  161  wget https://big-sa.github.io/BASH-Intro-2018/files/BDGP6_genes.gtf
+  162  ls ~/Downloads/
+  163  cd ~/Bashwk2/
+  164  ls
+  165  cd /home/Desktop
+  166  cat BDGP6_genes.gtf*
+  167  head BDGP6_genes.gtf
+  168  cat BDGP6_genes.gtf 
+  169  head BDGP6_genes.gtf 
+  170  head -
+  171  head -n3 BDGP6_genes.gtf 
+  172  less BDGP6_genes.gtf 
+  173  less BDGP6_genes.gtf 
+  174  less BDGP6_genes.gtf 
+  175  wc -l BDGP6_genes.gtf 
+  176  wc BDGP6_genes.gtf 
+  177  echo * Hello world
+  178  echo 'Hello world'
+  179  echo 'Hello\tworld'
+  180  echo -e 'Hello\tworld'
+  181  echo 'Hello\tworld' > Hello.txt
+  182  ls
+  183  cat Hello.txt
+  184  echo "It's me." >> hello.txt
+  185  cat hello.txt
+  186  echo -e "Hello\tworld"
+  187  echo -e "Hello\tworld" | wc -1
+  188  echo -e "Hello\tworld" | wc -l
+  189  cut -f1 BDGP6_genes.gtf  | head
+  190  cut -f1 BDGP6_genes.gtf | grep -v "#"   | head
+  191  cut -f1 BDGP6_genes.gtf | uniq
+  192  cut -f1 BDGP6_genes.gtf | uniq -c
+  193  cut -f1,2 BDGP6_genes.gtf | uniq -c
+  194  cut -f1-3 BDGP6_genes.gtf | head
+  195  cut -f1-3 BDGP6_genes.gtf | less
+  196  cut -f1:3 BDGP6_genes.gtf | less
+  197  cut -f1-3 BDGP6_genes.gtf | uniq -c
+  198  cut -f4 -s -d\; BDGP6_genes.gtf | uniq -c
+  199  cat -h
+  200  cut -h
+  201  cut --help
+  202  cut -f4 -s -d\; BDGP6_genes.gtf | uniq -c
+  203  cut -f4 -s -d\; BDGP6_genes.gtf | sort | uniq -c
+  204  cut -f4 -s -d\; BDGP6_genes.gtf | sort | uniq -c | sort -n
+  205  history
+  206  history > history.txt
+  207  history>history.txt
+  208  ls
+  209  ls Baskwk2
+  210  ls Bashwk2
+  211  ls history.txt
+  212  ls
+  213  ls Bashwk2
+  214  ls BDGP6_genes.gft
+  215  ls
+  216  ls history.txt
+  217  ls Bashwk2
+  218  wc BDGP6_genes.gtf
+  219  cd BDGP6_gene.gtf
+  220  ls
+  221  history
+  222  ls
+  223  cd /home/Desktop
+  224  cat BDGP6_genes.gtf*
+  225  ls
+  226  cd Bashwk2/
+  227  ls
+  228  wc BDGP6_genes.gtf 
+  229  ls
+  230  rm BDGP6_genes.gtf 
+  231  ls
+  232  wget https://big-sa.github.io/BASH-Intro-2018/files/BDGP6_genes.gtf
+  233  curl https://big-sa.github.io/BASH-Intro-2018/files/BDGP6_genes.gtf > another_duplicate.gtf
+  234  ls
+  235  curl https://big-sa.github.io/BASH-Intro-2018/files/BDGP6_genes.gtf
+  236  curl https://big-sa.github.io/BASH-Intro-2018/files/BDGP6_genes.gtf > ^C
+  237  ls
+  238  curl https://big-sa.github.io/BASH-Intro-2018/files/BDGP6_genes.gtf > BDGP6_genes.gtf
+  239  ls
+  240  nano
+  241  cd
+  242  mkdir -p Bashwk3/files
+  243  cd Bashwk3/files
+  244  ls
+  245  ls  ../..
+  246  ls  ../../BashWk2
+  247  cp ../../BashWk2/BDGP6_genes.gtf ./
+  248  ls
+  249  ls
+  250  tar xzvf 3_many_files.tar.gz 
+  251  ls
+  252  wc GRCh38.chr22.ensembl.biomart.txt.gz 
+  253  head GRCh38.chr22.ensembl.biomart.txt.gz 
+  254  ls
+  255  gunzip -k GRCh38.chr22.ensembl.biomart.txt.gz 
+  256  ls
+  257  head GRCh38.chr22.ensembl.biomart.txt
+  258  cut GRCh38.chr22.ensembl.biomart.txt
+  259  sort GRCh38.chr22.ensembl.biomart.txt
+  260  uniq GRCh38.chr22.ensembl.biomart.txt
+  261  head -n1 GRCh38.chr22.ensembl.biomart.txt
+  262  cut -f12 GRCh38.chr22.ensembl.biomart.txt | sort | uniq | wc
+  263  cp ../ ../Bashwk2/BDGP6_genes_gtf ./
+  264  cp ../../Bashwk2/BDGP6_genes_gtf ./
+  265  ls
+  266  cp ../../Bashwk2/BDGP6_genes.gtf ./
+  267  grep DNAJB7 GRCh38.chr22.ensembl.biomart.txt
+  268  export GREP_OPTIONS='--color=auto'
+  269  export GREP_COLOR='1;35;40'
+  270  grep DNAJB7 GRCh38.chr22.ensembl.biomart.txt
+  271  grep -n DNAJB7
+  272  grep -n DNAJB7  GRCh38.chr22.ensembl.biomart.txt
+  273  grep -n DNAJB7 GRCh38.chr22.ensembl.biomart.txt
+  274  grep -c DNAJB7 GRCh38.chr22.ensembl.biomart.txt
+  275  grep DNAJB7 3_many_files/datafile1 3_many_files/datafile2
+  276  ls
+  277  grep -c DNAJB7 GRCh38.chr22.ensembl.biomart.txt
+  278  grep -w transport GRCh38.chr22.ensembl.biomart.txt
+  279  history > history.txt
+  280  history
+  281  history
+  282  ls
+  283  pwd
+  284  cd
+  285  cut -f 2 -d '';'' BDGP6_genes.gtf
+  286  #!/bin/bash
+  287  # If you havent already, change into the files directory in the "BASH-Intro-2018" diectory
+  288  # The following line will need to be modified accordingly if you saved the files somewhere other than ~/BashWk4/files
+  289  cd ~/BashWk4/files
+  290  # Read the input file in my current directory into a variable
+  291  INPUT="ADL07p/ADL07p_1hr201501.csv"
+  292  # Use unix cut to divide the file into columns via the ","
+  293  #   - print each column except 2 and 3
+  294  #   - create a new file
+  295  cut -d',' -f1,4,5 ${INPUT} > ${INPUT}.new.csv
+  296  ls
+  297  history
+  298  cd files
+  299  ls
+  300  cd files
+  301  cd file
+  302  ls
+  303  pwd
+  304  cd Bashwk3
+  305  ls
+  306  cd files
+  307  ls
+  308  grep -w Zen BDGP6_genes.gtf 
+  309  ls
+  310  grep -w Zen BDGP6_genes.gtf* 
+  311  ls
+  312  head BDGP6_genes.gtf.gtf 
+  313  grep -w Zen BDGP6_genes.gtf.gtf
+  314  grep -wi Zen BDGP6_genes.gtf.gtf
+  315  grep -Ewi "(Ada|Zen)" BDGP6_genes.gtf
+  316  grep -Ewi "(Ada|Zen)" BDGP6_genes.gtf.gtf
+  317  vi
+  318  ls
+  319  vi gene_name
+  320  ls
+  321  cat gene_name
+  322  ls
+  323  grep -wif gene_name BDGP6_genes.gtf.gtf 
+  324  grep -w protein_coding BDGP6_genes.gtf.gtf
+  325  grep -v protein_coding BDGP6_genes.gtf.gtf
+  326  grep -v protein_coding BDGP6_genes.gtf.gtf | less
+  327  grep -wi A[dl][ac] BDGP6_genes.gtf.gtf
+  328  grep -wi "\"A[^dl][ac]\"" BDGP6_genes.gtf.gtf
+  329  grep 3R BDGP6_genes.gtf.gtf
+  330  sed -n '1,10p' BDGP6_genes.gtf.gtf
+  331  sed -n `5,9p` BDGP6_genes.gtf.gtf
+  332  sed -n `1~2p` BDGP6_genes.gtf.gtf
+  333  sed -n '5,9p' BDGP6_genes.gtf.gtf 
+  334  sed 's\Ac3\AC-3\' small.gtf
+  335   sed
+  336  cat small.gtf | sed 's\Ac3\AC-3\'
+  337  sed 's\Ac3\AC-3\' small.gtf.gtf
+  338  egrep "(Ac3|ADD1|Acn)" BDGP6_genes.gtf > small.gtf
+  339  ``` egrep "(Ac3|ADD1|Acn)" BDGP6_genes.gtf > small.gtf ```
+  340  egrep "(Ac3|ADD1|Acn)" BDGP6_genes.gtf > small.gtf 
+  341  egrep "(Ac3|ADD1|Acn)" BDGP6_genes.gtf > small.gtf.gtf
+  342  egrep "(Ac3|ADD1|Acn)" BDGP6_genes.gtf.gtf > small.gtf
+  343  sed 's\Ac3\AC-3\' small.gtf
+  344  cat small.gtf | sed 's\Ac3\AC-3\'
+  345  cat small.gtf | sed 's\AC-3\Ac3\'
+  346  sed 's\gene\GENE\' small.gtf
+  347  sed 's\gene\GENE\g' small.gtf
+  348  sed 's\gene\GENE\2' small.gtf
+  349  sed 's\gene\GENE\g' small.gtf
+  350  awk -F "\t" '$16=="transport" {print $0}' GRCh38.chr22.ensembl.biomart.txt
+  351  awk -F "\t" '$16=="transport" {print $0}' GRCh38.chr22.ensembl.biomart.txt | less
+  352  awk -F "\t" '$16=="transport" {print $3 $4 $5 $12 $16}' GRCh38.chr22.ensembl.biomart.txt
+  353  mkdir -p Bashwk4/files
+  354  cd Bashwk4/files
+  355  pwd
+  356  cd ..
+  357  ls
+  358  cd ..
+  359  ls
+  360  pwd
+  361  cd ..
+  362  ls
+  363  cd ..
+  364  ls
+  365  mkdir -p Bashwk4/files
+  366  ls
+  367  cd Bashwk4/files
+  368  wget -c https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/a0fa35fb-fedf-4db6-8bbb-668f9959fe42/download/adl07p.zip
+  369  unzip adl07p.zip
+  370  wget -c https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/a0fa35fb-fedf-4db6-8bbb-668f9959fe42/download/adl07p.zip
+  371  unzip adl07p.zip
+  372  #!/bin/bash
+  373  # If you havent already, change into the files directory in the "BASH-Intro-2018" diectory
+  374  # The following line will need to be modified accordingly if you saved the files somewhere other than ~/BashWk4/files
+  375  cd ~/BashWk4/files
+  376  # Read the input file in my current directory into a variable
+  377  INPUT="ADL07p/ADL07p_1hr201501.csv"
+  378  # Use unix cut to divide the file into columns via the ","
+  379  #   - print each column except 2 and 3
+  380  #   - create a new file
+  381  cut -d',' -f1,4,5 ${INPUT} > ${INPUT}.new.csv
+  382  vi
+  383  v
+  384  vi basic_example_1.sh
+  385  ls
+  386  chmod +x ./basic_example_1.sh
+  387  basic_example_1.sh
+  388  ls
+  389  ls
+  390  ls -lh
+  391  basic_example_1.sh
+  392  ./basic_example_1.sh
+  393  wget -c https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/a0fa35fb-fedf-4db6-8bbb-668f9959fe42/download/adl07p.zip
+  394  unzip adl07p.zip
+  395  curl  https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/a0fa35fb-fedf-4db6-8bbb-668f9959fe42/download/adl07p.zip > adl07p.zip 
+  396  ls
+  397  unzip adl07p.zip
+  398  basic_example_1.sh
+  399  ./basic_example_1.sh
+  400  ./basic_example_1.sh
+  401  ./basic_example_1.sh
+  402  ./basic_example_1.sh
+  403  ./basic_example_1.sh
+  404  ./basic_example_1.sh
+  405  ./basic_example_1.sh
+  406  history
+  407  ls
+  408  pwd
+  409  cd Bash1
+  410  mkdir Temp
+  411  ls
+  412  cd Temp
+  413  ls
+  414  touch file1.txt
+  415  ls
+  416  touch file2.txt
+  417  touch file3.txt
+  418  ls
+  419  ls -l
+  420  history
+  421  history > history.txt
+  422  ls
+  423  pwd
+  424  ls -l
+  425  touch history.txt
+  426  ls -l
+  427  history > history.txt
+  428  echo $SHELL 
+  429  echo $SHELL > shell_location.txt
+  430  ls -l
+  431  cat shell_location.txt
+  432  echo $VERSION
+  433  echo $VER
+  434  echo $BASH_VERSION
+  435  echo $BASH_VERSION >> shell_location.txt
+  436  cat shell_location.txtftvhbjuuvu
+  437  ls -l
+  438  cat history.txt
+  439  head history.txt
+  440  less history.txt
+  441  cat history.txt
+  442  tail history.txt
+  443  cd
+  444  ls
+  445  cd Bash1
+  446  ls
+  447  cd Bashwk2
+  448  cd /Bashwk2
+  449  cd /Bashwk2
+  450  cd ../Bashwk2
+  451  cd ~/Bash1
+  452  history
+  453  history > history.txt
+  454  ls
+  455  ls -lhR
+  456  pwd
+  457  ls
+  458  cd Bash1
+  459  mkdir Temp1
+  460  ls
+  461  cd Temp1
+  462  ls
+  463  touch file1.txt
+  464  ls
+  465  touch file2.txt
+  466  touch file3.txt
+  467  ls
+  468  ls -l
+  469  echo $SHELL
+  470  echo $shell
+  471  history > history.txt
+  472  ls
+  473  pwd
+  474  ls -l
+  475  echo $SHELL
+  476  echo $SHELL > Phuong.txt
+  477  ls -l
+  478  ls
+  479  ls -l
+  480  cat Phuong.txt
+  481  echo $BASH_VERSION
+  482  ECHO $BASH_VERSION >>Phuong.txt
+  483  ls -l
+  484  ECHO $BASH_VERSION >> Phuong.txt
+  485  ls -l
+  486  cat history.txt
+  487  head history.txt
+  488  less history.txt
+  489  tail history.txt
+  490  cat Phuong.txt
+  491  ls
+  492  cd Bash1
+  493  cd /Bash1
+  494  cd ../Bash1
+  495  cd ~/Bash1
+  496  cd ../Bashwk2
+  497  history > history.txt
+  498  cd ../Bash1
+  499  cd Temp1
+  500  history > history.txt
